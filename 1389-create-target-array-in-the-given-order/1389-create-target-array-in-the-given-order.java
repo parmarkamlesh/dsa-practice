@@ -6,14 +6,10 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             outputArr.add(index[i],nums[i]);
         }
-        
-        //converting is better than nested loops to insert item in array
-        int[] outputConverted=new int[nums.length];
-
         for(int i=0;i<nums.length;i++){
-            outputConverted[i]=outputArr.get(i);
+            nums[i]=outputArr.get(i);
         }
-        
-        return outputConverted;
+        //modifing parameter arr because its pass by value        
+        return nums;
     }
 }

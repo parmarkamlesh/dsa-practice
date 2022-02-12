@@ -1,53 +1,25 @@
-class ParkingSystem {
-    private int spaceSmall=0;
-    private int spaceBig=0;
-    private int spaceMedium=0;
-
-    public ParkingSystem(int big, int medium, int small) {
-
-        this.spaceSmall=small;    
-        this.spaceBig=big;    
-        this.spaceMedium=medium;    
-
-    }
+class ParkingSystem:
     
-    public boolean addCar(int carType) {
-     
-        switch(carType){
-            case 1:
-                    //big car
-                    if(this.spaceBig>0){
-                        this.spaceBig--;
-                        return true;
-                    }else{
-                        return false;
-                    }
-                
-            case 2:
-                    //medium car
-                    if(this.spaceMedium>0){
-                        this.spaceMedium--;
-                        return true;
-                    }else{
-                        return false;
-                    }
-            case 3:
-                    //small car
-                    if(this.spaceSmall>0){
-                        this.spaceSmall--;
-                        return true;
-                    }else{
-                        return false;
-                    }
-        }
-        //default false
-        return false;
-        
-    }
-}
+    def __init__(self, big: int, medium: int, small: int):
+        self.big=big;
+        self.small=small;
+        self.medium=medium;
 
-/**
- * Your ParkingSystem object will be instantiated and called as such:
- * ParkingSystem obj = new ParkingSystem(big, medium, small);
- * boolean param_1 = obj.addCar(carType);
- */
+    def addCar(self, carType: int) -> bool:
+        if(carType==1 and self.big>0):
+            self.big-=1
+            return True
+        if(carType==2 and self.medium>0):
+            self.medium-=1
+            return True
+        if(carType==3 and self.small>0):
+            self.small-=1
+            return True
+
+        
+        return False;
+
+
+# Your ParkingSystem object will be instantiated and called as such:
+# obj = ParkingSystem(big, medium, small)
+# param_1 = obj.addCar(carType)

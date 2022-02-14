@@ -6,12 +6,11 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
         
-            int temp=target-nums[i];
-            
-            if(occuranceMap.containsKey(temp)){
+            // int temp=target-nums[i];
+            if(occuranceMap.containsKey(target-nums[i])){
                 int[] output=new int[2];
                 output[0]=i;
-                output[1]=(int)occuranceMap.get(temp);
+                output[1]=occuranceMap.get(target-nums[i]);
                 return output;
             }
             

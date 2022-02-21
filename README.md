@@ -15,4 +15,15 @@ Started on 12 feb 2022
 
 15 feb 2022 => 100 total questions <br>
 Easy   Medium  Hard<br>
-77/546 22/1159 1/468
+77/546 22/1159 1/468<br>
+
+Convert arraylist to int[]<br>
+public static int[] convertIntegers(List<Integer> integers)
+{
+    int[] ret = new int[integers.size()];
+    for (int i=0; i < ret.length; i++)
+    {
+        ret[i] = integers.get(i).intValue();
+    }
+    return ret;
+}

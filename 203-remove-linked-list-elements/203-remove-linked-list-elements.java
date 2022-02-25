@@ -17,7 +17,6 @@ class Solution {
         
         while(safeHead!=null && safeHead.next!=null){
             if(safeHead.next.val==val){
-               // safeHead.val=safeHead.val;
                 safeHead.next=safeHead.next.next;                
             }else
             safeHead=safeHead.next;

@@ -9,25 +9,10 @@
  * }
  */
 class Solution {
-    ListNode reverseList(ListNode src){
-        // ListNode safeHead=src;
-        ListNode prev=null;
-        ListNode current=src;
-        ListNode next=null;
-        while(current!=null){
-            next=current.next;
-            current.next=prev;
-            prev=current;
-            current=next;
-           
-            
-        }
-        return prev;
-    }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     
-        ListNode rev1=l1;//reverseList(l1);
-        ListNode rev2=l2;//reverseList(l2);
+        ListNode rev1=l1;
+        ListNode rev2=l2;
         
         ListNode safe1=rev1;
         ListNode safe2=rev2;

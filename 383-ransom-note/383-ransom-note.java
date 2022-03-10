@@ -1,9 +1,5 @@
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        if(ransomNote.length()>magazine.length())
-            return false;
-        if(ransomNote.length()==0 || magazine.length()==0)
-             return false;
         int[] chars=new int[26];
         for(int i=0;i<magazine.length();i++){
             chars[magazine.charAt(i)-'a']++;

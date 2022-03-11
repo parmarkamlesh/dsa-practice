@@ -21,7 +21,7 @@ class Solution {
             oldTail = oldTail.next;
             n++;
         }
-        
+    //    System.out.println(n);
         oldTail.next = head;
         ListNode newTail=head;
         for(int i=0;i<( n - k % n - 1);i++){

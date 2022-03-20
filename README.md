@@ -17,6 +17,10 @@ Started on 12 feb 2022
 Easy   Medium  Hard<br>
 77/546 22/1159 1/468<br>
 
+15 march 2022 => 163 total questions <br>
+Easy   Medium  Hard<br>
+124/546 44/1159 1/468<br>
+
 Convert arraylist to int[]<br>
 public static int[] convertIntegers(List<Integer> integers)
 {

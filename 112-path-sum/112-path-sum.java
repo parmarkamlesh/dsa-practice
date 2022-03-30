@@ -18,9 +18,6 @@ class Solution {
         if(root==null){
             return false;
         }
-        // if( root.val==targetSum){
-        //     return true;
-        // }
         targetSum -= root.val;
         if(root.left == null && root.right == null && targetSum == 0){
             return true;

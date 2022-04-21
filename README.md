@@ -23,12 +23,12 @@ Easy   Medium  Hard<br>
 
 
 Convert arraylist to int[]<br>
-public static int[] convertIntegers(List<Integer> integers)
-{
-    int[] ret = new int[integers.size()];
-    for (int i=0; i < ret.length; i++)
-    {
-        ret[i] = integers.get(i).intValue();
-    }
-    return ret;
-}
+public static int[] convertIntegers(List<Integer> integers)<br>
+{<br>
+    int[] ret = new int[integers.size()];<br>
+    for (int i=0; i < ret.length; i++)<br>
+    {<br>
+        ret[i] = integers.get(i).intValue();<br>
+    }<br>
+    return ret;<br>
+}<br>

@@ -1,3 +1,4 @@
+
 class Solution {
     public int strStr(String haystack, String needle) {
         // Not optimal solution

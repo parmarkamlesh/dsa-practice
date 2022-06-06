@@ -1,5 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
+        
         Stack<Character> stack = new Stack<Character>();
             for (char c : s.toCharArray()) {
                 if (c == '(')
@@ -11,6 +12,7 @@ class Solution {
                 else if (stack.isEmpty() || stack.pop() != c)
                     return false;
             }
+        
             return stack.isEmpty();        
 
         // Stack<Character> stk=new Stack();

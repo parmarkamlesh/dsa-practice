@@ -1,4 +1,4 @@
-maintain two array in and out
-pop opr=> out array
-peek ot arry
-push inp array
+maintain two stack in and out
+pop opr=> out stack
+peek ot stack
+push inp stack

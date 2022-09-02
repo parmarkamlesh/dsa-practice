@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public List<Double> averageOfLevels(TreeNode root) {
+    public List < Double > averageOfLevels(TreeNode root) {
         List < Double > res = new ArrayList < > ();
         Queue < TreeNode > queue = new LinkedList < > ();
         queue.add(root);
@@ -34,6 +34,6 @@ class Solution {
             res.add(sum * 1.0 / count);
         }
         return res;
-    
+
     }
 }

@@ -12,6 +12,8 @@
  *         this.right = right;
  *     }
  * }
+ decrease sum to 0 and check its last element.
+ IT IS COMPALSURY TO MAINTAIN STREEK ):(
  */
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {

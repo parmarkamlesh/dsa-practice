@@ -9,6 +9,7 @@ XOR PROPERTY<br>
 A^1= invert of A<br>
 A^0=A<br>
 A'^A=0<br>
+
 Print hashmap for debuging or use debugger<br>
 System.out.println(Arrays.asList(map));<br>
 Started on 12 feb 2022
@@ -21,7 +22,7 @@ Easy   Medium  Hard<br>
 Easy   Medium  Hard<br>
 124/546 44/1159 1/468<br>
 
-busy in job :(
+busy in job :( and trip and out of connection. can't break streak so now I have to code everyday
 
 Convert arraylist to int[]<br>
 public static int[] convertIntegers(List<Integer> integers)<br>

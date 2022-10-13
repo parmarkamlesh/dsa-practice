@@ -2,6 +2,9 @@
 Do not modify input data, its bad practice.
 Create function for repeatative task.
 
+if you know something and u think that you should tell to other people about idea or thinking. you should do it without thinking...
+better to share knowledge 
+
 length of int => (int) (Math.log10(number) + 1) => 123=>3
 chatAt to int => "123".charAt(0)-'0' => 1
 

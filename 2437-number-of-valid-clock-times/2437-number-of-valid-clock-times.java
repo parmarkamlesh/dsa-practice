@@ -3,7 +3,7 @@ class Solution {
         int count = 1;
         String first = time.substring(0, 2);
         String second = time.substring(3);
-        
+        // todo need understanding
         // hours:
         // 1. 00 - 23
 

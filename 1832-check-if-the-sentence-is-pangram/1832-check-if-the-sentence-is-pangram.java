@@ -1,5 +1,7 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
+        if(sentence.length()<26)
+            return false;
         int arr[]=new int[26];
         for(char c : sentence.toCharArray()){
             arr[122-((int)c)]=1;

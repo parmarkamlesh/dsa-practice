@@ -2,7 +2,7 @@ class Solution {
     public int averageValue(int[] nums) {
         int sum=0,count=0;
         for(int i:nums){
-            if(i%6==0){
+            if(i%3==0 && i%2==0){
                 sum+=i;
                 count++;
             }

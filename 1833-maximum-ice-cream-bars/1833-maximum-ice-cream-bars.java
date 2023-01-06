@@ -6,7 +6,7 @@ class Solution {
         
         while(ice<n && costs[ice]<=coins){
             coins-=costs[ice];
-            ice++;
+            ice+=1;
         }
         return ice;
     }

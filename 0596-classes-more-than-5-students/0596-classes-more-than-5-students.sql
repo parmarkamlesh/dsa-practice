@@ -1,0 +1,1 @@
+select temp.class "class" from (select count(student) "stdcnt",class from Courses group by class) temp where temp.stdcnt>4 

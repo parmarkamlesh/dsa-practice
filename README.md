@@ -1,7 +1,7 @@
 # dsa-practice
 Do not modify input data, its bad practice.
 Create function for repeatative task.. 
-
+#snake inside house cant access pc.
 if you know something and u think that you should tell to other people about idea or thinking. you should do it without thinking...
 better to share knowledge 
 

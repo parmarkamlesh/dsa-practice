@@ -1,7 +1,6 @@
 class Solution {
     public List<Integer> findAnagrams(String s1, String s2) {       
-        //s1=s s2=p
-        // s1 = "cbaebabacd", s2 = "abc"
+
         List<Integer> op=new ArrayList();
 
         if (s2.length() > s1.length()) {

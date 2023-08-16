@@ -6,7 +6,6 @@ class Solution {
             char[] chars=s.toCharArray();
             Arrays.sort(chars);
             String key = String.valueOf(chars);
-//            System.out.println(key);
             if (!hm.containsKey(key)) {
                 hm.put(key, new ArrayList<>());
             }

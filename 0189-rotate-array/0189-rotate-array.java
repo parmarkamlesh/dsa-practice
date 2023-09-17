@@ -2,16 +2,16 @@ public class Solution {
     public void rotate(int[] nums, int k) {
         //copied
         k = k % nums.length; 
-        //(1) new array; 
-        int[] oldNums = nums.clone();
-        for(int i = 0; i< nums.length;i++){
-            nums[(i+k)%nums.length] = oldNums[i]; 
-        }
+        // //(1) new array; 
+        // int[] oldNums = nums.clone();
+        // for(int i = 0; i< nums.length;i++){
+        //     nums[(i+k)%nums.length] = oldNums[i]; 
+        // }
         
         //(2) reverse 3 times 
-        // reverse(nums, 0, nums.length-1); 
-        // reverse(nums, 0, k-1);
-        // reverse(nums, k, nums.length-1); 
+        reverse(nums, 0, nums.length-1); 
+        reverse(nums, 0, k-1);
+        reverse(nums, k, nums.length-1); 
         
         //(3) move k times
         // while(k-->0){

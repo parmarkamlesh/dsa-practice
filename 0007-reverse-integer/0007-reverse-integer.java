@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//flight update 
     public int reverse(int x) {
         long safe=Math.abs(x);
         boolean isNegative=(x<0)?true:false;

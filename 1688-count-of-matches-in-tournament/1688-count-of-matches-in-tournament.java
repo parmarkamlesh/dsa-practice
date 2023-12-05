@@ -1,5 +1,6 @@
 class Solution {
     public int numberOfMatches(int n) {
+        //return n-1;
         int ans = 0;
         while (n > 1) {
             if (n % 2 == 0) {

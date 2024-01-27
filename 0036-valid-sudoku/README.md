@@ -1,5 +1,5 @@
 <h2><a href="https://leetcode.com/problems/valid-sudoku/">36. Valid Sudoku</a></h2><h3>Medium</h3><hr><div><p>Determine if a&nbsp;<code>9 x 9</code> Sudoku board&nbsp;is valid.&nbsp;Only the filled cells need to be validated&nbsp;<strong>according to the following rules</strong>:</p>
-
+<!-- trip to Sarangpur -->
 <ol>
 	<li>Each row&nbsp;must contain the&nbsp;digits&nbsp;<code>1-9</code> without repetition.</li>
 	<li>Each column must contain the digits&nbsp;<code>1-9</code>&nbsp;without repetition.</li>

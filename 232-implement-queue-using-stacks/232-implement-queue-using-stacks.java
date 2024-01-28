@@ -1,3 +1,4 @@
+
 class MyQueue {
     
     private Stack<Integer> inp=new Stack();
